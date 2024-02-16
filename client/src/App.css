@@ -1,0 +1,223 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container
+{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+width: 100%;
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+align-items: flex-start;
+/* background-color: red; */
+}
+
+.inp
+{
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  text-indent: 20px;
+  outline: none;
+  border: 1px solid gray;
+
+}
+
+.btn
+{
+  background-color: rgb(30, 94, 221);
+  color: white;
+  cursor: pointer;
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-weight: bold;
+  border: 1px solid rgb(30, 94, 221);
+
+}
+
+.btn:hover{
+  background-color: rgb(79, 123, 210);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(30, 94, 221);
+}
+
+/* .not-found
+{
+  font-weight: bold;
+} */
+
+.nf{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  
+}
+.nf>h1{
+  font-weight: bold;
+}
+.invisible-msg
+{
+  opacity: 0;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.success{
+  color: green;
+  background-color: lightgreen;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+.error{
+  color: red;
+  background-color: lightcoral;
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.nav-links{
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  justify-content: flex-end;
+  padding: 10px;
+  width: 100%;
+
+}
+.nav-links>li
+{
+  cursor: pointer;
+  list-style: none;
+
+  
+}
+.nav-links>li>a{
+  color:black
+}
+.nav-links>li:hover{
+  background-color: gray;
+}
+
+/* track page css */
+
+.track-container
+{
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+}
+
+.search
+{
+  width: 100%;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.search-inp
+{
+  width: 100%;
+  height: 45px;
+  font-size: 18px;
+  text-indent: 20px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.food-items
+{
+  width: 100%;
+  padding: 10px 5px;
+  background-color:gray;
+  margin-top: 10px;
+  cursor: pointer;
+  position: absolute;
+  opacity: 95%;
+}
+
+
+.food{
+  width: 100%;
+  padding:30px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+}
+.food-img
+{
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.f-img{
+  width: 100%;
+  height: 100%;
+}
+.nutrient
+{
+  width: 50%;
+  padding: 10px 0px;
+}
+.inp-qty
+{
+  font-size: 18px;
+}
+.item:hover{
+  background-color: rgb(177, 177, 177);
+}
+
+.track-control
+{
+  display: flex;
+  width: 100%;
+  column-gap: 2%;
+}
+.inp-qty
+{
+  width: 68%;
+}
+.btn-track{
+  font-size: 16px;
+  width: 30%;
+  padding: 10px 0px;
+}
+
+/* css for diet */
+
+.diet-container
+{
+  height: fit-content;
+  align-items: flex-start;
+  justify-content:flex-start;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.d-item{
+  width: 100%;
+  padding: 20px;
+  background-color: #2f2f2f;
+}
