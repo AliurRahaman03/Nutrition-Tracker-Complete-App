@@ -96,7 +96,7 @@ a{
 }
 
 .nav-links{
-  background-color: red;
+  background-color: lightgray;
   display: flex;
   flex-direction: row;
   column-gap: 30px;
