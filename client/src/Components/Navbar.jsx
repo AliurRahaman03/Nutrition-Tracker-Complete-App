@@ -25,6 +25,7 @@ export default function Navbar()
                 <li><Link to='/register'>Register</Link></li>
                 <li><Link className="logout" onClick={logout}>Logout</Link></li>
             </ul>
+            <h1><b>Welcome To Nutrition Tracker...</b></h1>
 
         </div>
     )
